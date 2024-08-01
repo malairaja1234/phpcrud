@@ -6,10 +6,6 @@ if(!$con)
 {
 	die("Not connected");
 }
-else
-{
-	echo "Connected successfully";
 
-}
 
 ?>

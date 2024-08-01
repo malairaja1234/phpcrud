@@ -8,28 +8,47 @@ include 'connection.php';
 
 <style>
 
+.container
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+button
+{
+    padding:8px;
+    border-radius:5px;
+}
+
 .tablediv
 {
 
 display:flex;
 
-
+}
+body
+{
+    background-color:lightblue;
 }
 
 
 tbody
 {
 padding:100px;
-color:red;
+color:black;
+font-size:larger;
 }
-
 
 table
 {
 border:2px solid blue;
-height:500px;
+height:200px;
 width:1200px;
+background-color:grey;
 }
+
 
 
 </style>
@@ -52,9 +71,9 @@ width:1200px;
 <tr>
 <td>id</td>
 <td>Name</td>
-<td>email</td>
-<td>mobile</td>
-<td>password</td>
+<td>Email</td>
+<td>Mobile</td>
+<td>Password</td>
 <td>Operations</td>
 
 </tr>

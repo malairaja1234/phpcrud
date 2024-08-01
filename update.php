@@ -3,6 +3,55 @@
 
 <head>
 <title>Student</title>
+
+
+<style>
+
+a{
+	font-size:30px;
+	text-decoration:none;
+	
+	margin-left:300px;
+}
+
+form
+{
+	display:flex;
+	background-color:grey;
+	flex-direction:column;
+	width:40%;
+	align-items:center;
+	justify-items:center;
+	padding:20px;
+	border-radius:10px;
+}
+
+input
+{
+	margin:20px;
+	border-radius:10px;
+	padding:10px;
+}
+body
+{
+	display:flex;
+	background-color:lightblue;
+	flex-direction:column;
+	align-items:center;
+	justify-items:center;
+	
+}
+
+button{
+	padding:10px;
+	border-radius:10px;
+}
+
+
+</style>
+
+
+
 </head>
 
 <body>
@@ -39,34 +88,34 @@ else
 
 ?>
 
+<h2>Employee Update</h2>
 
 <form method="post">
 
-
-
+<div class="indiv">
 <label>Name</label>
+<input type="text" name="name">
+</div>
 
-<input type="text" name="name"></br></br>
+<div>
+<label>email</label>
+<input type="text" name="email">
+</div>
 
-<label>Email</label>
+<div>
+<label>mobile</label>
+<input type="number" name="mobile">
+</div>
 
-<input type="text" name="email"></br></br>
+<div>
+<label>passcode</label>
+<input type="password" name="password">
+</div>
 
-<label>Mobile</label>
+<button type="submit" name="submit">Update</button>
 
-<input type="number" name="mobile"></br></br>
-
-<label>password</label>
-
-<input type="password" name="password"></br></br>
-
-
-<button type="submit" name="submit">update</button>
-
-
-
+<a href="display.php">Records</a>
 </form>
-
 </body>
 
 
